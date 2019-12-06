@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  /* = 1rem / 1em */
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 400;
+  background-color: #FCEFF1;
+  margin:0;
+  background: linear-gradient(to bottom, rgba(237,208,242,1) 6%, rgba(255,255,255,0.9508754185267857) 26%, rgba(249,244,248,1) 38%);
+}
+.clearfix {
+  clear:both
+}
+.container {
+  width:950px;
+  margin:0 auto;
+}
+.shadow-light {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.main-nav {
+  text-align: center;
+
+}
+
+.main-nav ul li {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav ul, footer ul {
+  margin:0px;
+}
+nav, header, article {
+  margin-bottom: 25px;
+}
+header, article {
+  padding: 30px 15px;
+}
+header {
+  text-align: center;
+  background-color: #eddee0;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url("../image/hotel-wallpaper.png");
+  background-position: center;
+}
+section {
+  width:68%;
+}
+aside {
+  width:30%;
+  margin-left: 2%;
+}
+header img {
+  width:15rem;
+  border-radius: 50%;}
+section img {
+  width:10rem;
+  float: right;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+aside, section {
+  float: left;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+h2 {
+  color: #922332;
+  font-size: 1.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5, h6 {
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1.1em;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a, a:visited, a:active {
+  color: #e35467;
+}
+
+nav, article {
+  background-color: #ffff;
+}
+footer {
+  background-color: #15080A;
+}

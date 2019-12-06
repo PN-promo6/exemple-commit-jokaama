@@ -1,0 +1,27 @@
+body {
+  margin: 0 auto;
+  font-size: 30px;
+}
+section {
+  border: 1px solid black;
+  width:60%;
+  height: 150px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+section div {
+  width: 50%;
+}
+.first-block {
+  background-color: red;
+}
+.second-block {
+  background-color: #EEB7AB;
+}
+.third-block {
+  background-color: orange;
+}
+p  {
+  margin: 0;
+}
